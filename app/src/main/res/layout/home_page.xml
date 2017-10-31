@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/home_circ_name"
+            android:background="@drawable/college_name_circle"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:textColor="@android:color/white"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_name"
+                android:gravity="center"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="26sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_rank"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:textSize="22sp"
+                android:paddingLeft="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Address"
+            android:fontFamily="'Alfa Slab One', cursive"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/home_address"
+            android:padding="20dp"
+            android:textSize="22sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/score_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:fontFamily="'Alfa Slab One', cursive"
+            android:text="Score"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/home_tenth"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="italic"
+            android:layout_marginBottom="10dp"
+            android:textSize="22sp"
+           />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/home_twelve"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="22sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Contact"
+            android:fontFamily="'Alfa Slab One', cursive"
+            android:textSize="30sp"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/home_mobile"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="22sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/home_email"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="22sp"
+           />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="'Alfa Slab One', cursive"
+        android:text="Select Branch"
+        android:id="@+id/choose_branch" />
+</LinearLayout>
+</ScrollView>

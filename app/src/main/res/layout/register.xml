@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/err_reg_view"
+        android:layout_margin="5dp"
+        android:visibility="invisible"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_username_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reg_username"
+            android:hint="User Name"
+            android:ems="15"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_password_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reg_pass"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:ems="15"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reg_confirm_pass"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:ems="15"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/reg_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:background="#F04f74"/>
+
+
+
+
+</LinearLayout>
+

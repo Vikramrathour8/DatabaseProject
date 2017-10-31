@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ProjectStdio</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="user_name">User Name</string>
+    <string name="user_hint">username</string>
+    <string name="pass_name">Password</string>
+    <string name="pass_hint">enter password</string>
+    <string name="log_in">SignIn</string>
+    <string name="register">SignUp</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="first_name">First Name</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="birth_date">Date of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="street_name">Street Name</string>
+    <string name="pin_code">PinCode</string>
+    <string name="district_name">Disrict</string>
+    <string name="state_name">State</string>
+    <string name="mobile">Mobile</string>
+    <string name="email">Email</string>
+    <string name="rank">JEE Rank</string>
+    <string name="ten_mark">10th Mark</string>
+    <string name="ten_pass_year">10th PassYear</string>
+    <string name="twelve_mark">12th Mark</string>
+    <string name="twelve_pass_year">12th Pass Year</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_navigation_side_bar">navigation_side_bar</string>
+    <string name="ic_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="address">Address</string>
+    <string name="title_activity_branch">Branch</string>
+</resources>
